@@ -6,6 +6,7 @@ MIDIClient.init;
 ("f_guiClass.scd").loadRelative;
 ("f_fomus.scd").loadRelative;
 )
-~saveFomus.value();
+
+
 
 

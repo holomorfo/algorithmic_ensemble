@@ -1,5 +1,5 @@
 // Parte de inicializaciones
-~instrumentos = [\violin,\viola,\cello,\contrabass];
+//~instrumentos = [\violin,\viola,\cello,\contrabass];
 
 ~t = TempoClock.new;
 
@@ -10,8 +10,6 @@
 ~instrumentos.do({|name,i|
 	~instPdf.add(InstrumentoPdef(name,i));
 });
-
-
 
 ~pdefs=Array.fill(~instrumentos.size,{|i|
 	Pdef(i.asSymbol,
