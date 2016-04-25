@@ -6,6 +6,7 @@
 ~n = Array.new(2000);
 ~regF={{|v|~n.add((\note:(v.note),\dur:v.dur,\mark:v.mark,\time:v.time,\voice: v.voice, \instru: v.instru))}};
 
+
 ~instPdf = Array.new(16);
 ~instrumentos.do({|name,i|
 	~instPdf.add(InstrumentoPdef(name,i));
