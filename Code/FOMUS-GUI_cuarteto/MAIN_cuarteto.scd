@@ -7,17 +7,8 @@ MIDIIn.connect(8, MIDIClient.sources.at(8));
 ~instrumentos = [\violin,\viola,\cello,\contrabass];
 ("f_pdefs.scd").loadRelative;
 ("f_guiClass.scd").loadRelative;
-("f_midi.scd").loadRelative;
+//("f_midi.scd").loadRelative;
 ("f_fomus.scd").loadRelative;
 )
 
 
-
-
-a="[1,3,4]".asArray
-a[0]
-"[1,3,4]".replace("[","").replace("]","")
-
-String
-
-round(1.0.rand,0.1)
